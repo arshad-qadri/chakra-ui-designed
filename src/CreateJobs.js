@@ -72,7 +72,10 @@ const CreateJobs = () => {
           borderRadius="5px"
           borderColor="gray.300"
         >
-          <Flex flexDirection={{ lg: "row", md: "column", sm: "row" }}>
+          <Flex
+            flexDirection={{ lg: "row", md: "column", sm: "column" }}
+            className="responsive"
+          >
             <Box>
               <Text fontSize="1rem" fontWeight="bold">
                 Job Title <span style={{ color: "red" }}>*</span>
